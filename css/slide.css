@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: white;
+  }
+
+#slider {
+  position: center;
+  top: 0;
+  left: 50%;
+  width: ;
+  height: ;
+  margin: 0 0 0 ;
+  background: white;
+}
+
+#images {
+  width : 500px;
+  height: 500px;
+  margin: 0 0;
+  object-fit: cover;  
+  animation: slide 10s infinite ease-in-out;
+}
+
+#images img {
+  float: left;
+}
+
+@keyframes slide {
+    0% { margin-left: 0; }
+   28% { margin-left: 0; }
+   33% { margin-left: -1600px; }
+   61% { margin-left: -1600px; }
+   66% { margin-left: -3200px; }
+   95% { margin-left: -3200px; }
+  100% { margin-left: 0; }
+}
+
